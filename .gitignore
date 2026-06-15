@@ -1,0 +1,36 @@
+# Build outputs
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Binary/object files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+
+# Local/editor/private files
+.claude/
+.vscode/
+.idea/
+.DS_Store
+
+# Docs excluded by request
+*.md
+!README.md
